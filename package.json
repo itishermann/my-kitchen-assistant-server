@@ -1,0 +1,38 @@
+{
+  "name": "my-kitchen-assistant-server",
+  "version": "1.0.0",
+  "description": "An assistant to know what is inside your kitchen and save some recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itishermann/my-kitchen-assistant-server.git"
+  },
+  "author": "itishermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itishermann/my-kitchen-assistant-server/issues"
+  },
+  "homepage": "https://github.com/itishermann/my-kitchen-assistant-server#readme",
+  "devDependencies": {
+    "-": "^0.0.1",
+    "chai": "^4.3.4",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "mocha": "^9.0.1",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "mongoose": "^5.12.15",
+    "rate-limiter-flexible": "^2.2.2"
+  }
+}
